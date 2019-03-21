@@ -680,7 +680,7 @@ describe('AJAX interactions with the Rails API', () => {
 
       gameButtons[0].click();
 
-      requests[1].respond(
+       requests[1].respond(
         200,
         { 'Content-Type': 'application/json' },
         jsonifyGame(['', '', '', '', 'X', '', '', 'O', ''])
